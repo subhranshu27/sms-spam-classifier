@@ -5,7 +5,7 @@ import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('punkt_tab')
-import stopwords
+# import stopwords
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 import string
