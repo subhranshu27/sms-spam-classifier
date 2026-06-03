@@ -59,4 +59,5 @@ if st.button('press'):
 
     else:
         st.header("not spam")
-
+if st.button("Send balloons!"):
+    st.balloons()
