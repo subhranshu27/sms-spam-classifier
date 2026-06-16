@@ -55,9 +55,8 @@ if st.button('press'):
     result = model.predict(vector_input)[0]
 
     if result == 1:
-        st.header("spam")
+        st.error("spam")
 
     else:
-        st.header("not spam")
-if st.button("Send balloons!"):
-    st.balloons()
+        st.successs("not spam")
+
