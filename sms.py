@@ -58,5 +58,5 @@ if st.button('press'):
         st.error("spam")
 
     else:
-        st.successs("not spam")
+        st.success("not spam")
 
